@@ -1,0 +1,232 @@
+
+
+/*font-family: 'Rajdhani', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+
+/*fonts family*/
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+/*global csss code*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/*header section css starts here*/
+/*navebarb css*/	
+
+/*.header-section{
+	top: 0
+	z-index: 999;
+	transition: background .4s,all .3s linear;
+
+}*/
+
+
+
+
+.navbar{
+	background-color: #22195b;
+}
+
+.navbar-brand{
+	font-family: 'Rajdhani', sans-serif;
+
+}
+
+
+
+.nav-link{
+    font-size: 14px;
+    font-weight: 600;
+    color: white !important;
+    margin-right: 30px;
+    font-family: 'Roboto', sans-serif;
+    transition: all .4s ease;
+
+
+}
+.nav-link:hover{
+	color:rgba(0,0,0,.5);
+	cursor: pointer;
+	transition: all .4s ease;
+}
+button.custom {
+    background-color: white;
+    padding: 12px 45px;
+    border: none;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #3a414e;
+    text-transform: capitalize;
+    transition: all .4s ease;
+}
+button.custom:hover{
+    background-color: #21146a;
+    border: 1px solid white;
+    color: white;
+    transition: all .4s ease;
+
+}
+
+
+/*banner section css starts here*/
+.banner-section{
+	background: url(../img/banner-bg.png);
+	background-color: #22195b;
+	height: 100vh;
+	background-size: cover;
+	position: relative;
+	z-index: 1;
+}
+.banner-img{
+	padding: 200px 0px;
+}
+.banner-content{
+	padding: 200px 0px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 118px;
+}
+.banner-content h1{
+	font-weight: 700;
+	font-size: 50px;
+	font-family: 'Rajdhani', sans-serif;
+	color: white;
+	margin-bottom: 22px;
+
+}
+.banner-content p{
+	font-weight: 400;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	margin-bottom: 45px;
+
+}
+
+
+
+
+/*soft feature*/
+
+.soft-feature{
+	width: 100%;
+	margin: 135px 0;
+	padding: 45px;
+}
+.soft-feature-content{
+	text-align: center;
+}
+.soft-feature-content h2{
+	font-family: 'Rajdhani', sans-serif;
+	font-weight: 700;
+	color: #3a414e;
+	margin-bottom: 10px;
+	font-size: 36px;
+
+}
+.soft-feature-content p{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	color: #797979;
+	margin-bottom: 10px;
+	font-size: 15px;
+	max-width: 630px;
+	margin: 0 auto;
+
+
+}
+.second{
+	margin: 60px 0;
+}
+.section-1{
+	border: 1px solid #FAF9FF;
+	background:#FAF9FF;
+	padding:30PX 35PX;
+    transition: all .4s ease;
+
+}
+.section-1 i{
+	font-size: 30px;
+	color: #21146a;
+}
+.section-1 h1{
+	font-family: 'Rajdhani', sans-serif;
+	font-weight: 600;
+	color: #3a414e;
+	font-size: 22px;
+	padding: 15px 0;
+}
+.section-1 p{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	color: #797979;
+	font-size: 15px;
+
+}
+.section-1:hover{
+	background: white;
+	box-shadow: 0px 10px 20px 0px;
+    transition: all .4s ease;
+
+}
+
+
+
+/*about section css*/
+.about{
+	padding: 100px 0;
+	background: #FAF9FF;
+}
+.about-content h2{
+	font-family: 'Rajdhani', sans-serif;
+	font-weight: 700;
+	color: #3a414e;
+	margin-bottom: 20px;
+	font-size: 36px;
+}
+.about-content p{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	color: #797979;
+	margin-bottom: 38px;
+	font-size: 15px;
+}
+.about-content button{
+	border:1px solid #21146a;
+}
+
+
+
+/*fetures section css starts here*/
+.fetures{
+	text-align: center;width: 100%;
+	margin: 135px 0;
+	padding: 45px;
+}
+.fetures-head{
+	text-align: center;
+}
+
+.fetures-head h2{
+	font-family: 'Rajdhani', sans-serif;
+	font-weight: 700;
+	color: #3a414e;
+	margin-bottom: 10px;
+	font-size: 36px;
+
+}
+.fetures-head p{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	color: #797979;
+	margin-bottom: 10px;
+	font-size: 15px;
+	max-width: 630px;
+	margin: 0 auto;
+
+}
